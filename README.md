@@ -16,9 +16,34 @@ Learnable positional encoding offers advantages across diverse tasks and domains
 
 ### Question 2: Designing a learnable positional encoding method using PyTorch.
 
-### Notebook Link
+In this section, we explore the implementation of a custom model with learnable positional encoding using PyTorch. We utilize the concept of positional encoding to enhance the understanding of sequence data by injecting positional information into the input embeddings.
+
+### Script Overview
+
+The provided script demonstrates the following key aspects:
+
+- Importing necessary libraries such as PyTorch for tensor operations and neural network modules.
+- Definition of hyperparameters including embedding dimension, hidden dimension, learning rate, and number of epochs.
+- Creation of a dummy dataset consisting of sequences and corresponding labels.
+- Implementation of a Positional Encoding layer, which adds positional information to input embeddings.
+- Design of a custom model architecture comprising an embedding layer, positional encoding layer, recurrent layer (GRU), and fully connected layer.
+- Initialization of the model, loss function (Binary Cross Entropy with Logits), and optimizer (Adam).
+- Training loop for updating model parameters based on the provided dummy dataset.
+- Evaluation of a validation dataset to measure model performance in terms of accuracy.
 
 Link to the notebook file [learnable_positional_encoding_using_pytorch.ipynb](./learnable_positional_encoding_using_pytorch.ipynb) containing the implementation of the learnable positional encoding method using PyTorch.
+
+### Keywords
+- PyTorch
+- Positional Encoding
+- Recurrent Neural Networks (RNN)
+- GRU (Gated Recurrent Unit)
+- Custom Model
+- Learnable Positional Encoding
+- Dummy Dataset
+- Training Loop
+- Validation
+- Accuracy
 
 ### Citations
 ##### 1. 11.6. Self-Attention and Positional Encoding — Dive into Deep Learning 1.0.0-beta0 documentation. (n.d.). D2l.ai. https://d2l.ai/chapter_attention-mechanisms-and-transformers/self-attention-and-positional-encoding.html
