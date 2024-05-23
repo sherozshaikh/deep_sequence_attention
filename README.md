@@ -39,6 +39,10 @@ Link to the notebook file [learnable_positional_encoding_using_pytorch.ipynb](./
 - Recurrent Neural Networks (RNN)
 - GRU (Gated Recurrent Unit)
 - Learnable Positional Encoding
+- Deep Learning
+- Self-Attention
+- Sequence Modeling
+- Sequence-to-Sequence Learning
 
 ### Citations
 ##### 1. 11.6. Self-Attention and Positional Encoding — Dive into Deep Learning 1.0.0-beta0 documentation. (n.d.). D2l.ai. https://d2l.ai/chapter_attention-mechanisms-and-transformers/self-attention-and-positional-encoding.html
